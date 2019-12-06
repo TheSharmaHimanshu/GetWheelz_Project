@@ -18,6 +18,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # REFERENCES
 1. Angular Material Components: https://material.angular.io/components/categories
 
+### Naming Conventions
+
+For HTML: compare.html, search_results.html, car_details.html, car_category.html
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
