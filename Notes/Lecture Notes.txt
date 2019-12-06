@@ -1,0 +1,67 @@
+20/11/2019 - LECTURE 1 - 
+
+For German Translation: DeepL.com
+
+Prof. Adil: adil.kodvavi@gmail.com
+Prof. Swati: Swati.Chandna.extern@srh.de
+
+Github: raliasadil/srh
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Course Structure
+
+Week 1 - HTML, CSS, Javascript
+Week 2 - React JS
+Week 3 - Redux, Javascript Testing Framework
+Week 4 - Project Q&A
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+HTML BASICS
+<!DOCTYPE html> denotes that the file is a HTML5 version.
+
+IMPORTANT: Google's JS Engine (V8 Engine)
+
+Excercise: http://dummy.restapiexample.com/api/v1/employee/{id}
+
+Technologies:
+Lodash
+ESLint
+Babel
+MomentJS
+ARIA - To read labels/inputs
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Example Projects: https://reactjs.org/community/examples.html
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+While presenting final project, also explain it with respect to the UI Design Princicples.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Feedback:
+1. Re-adjust advanced search fields.
+2. Overlay advanced search expansion menu, instead of pushing the page down.
+3. Make the homepage car gallery style menu more distinguishable by adding separator lines and making images more clear.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+For Final Presentation:
+
+1. Introduction - Use Case
+2. Motivation - Why did you choos this use case? What problems are you going to solve?
+3. Proposed Design -> Paper prototype, Wireframe, Mockup, Final Prototype
+4. Principles you considered while designing UI - Principles, Colors, Fonts.
+5. Usability testing - No. of users/Domain of users, Questoins you asked to prof.
+6. Challenges you faced/Lessons learned
+7. Discussions/Conclusions
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+PROJECT:
+
+Font: Roboto
+Color Palette Selection: http://colorbrewer2.org/
