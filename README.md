@@ -10,6 +10,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     npm install -g @angular/cli
 5. Install Angular Material Packages -
     ng add @angular/material
+        (i)   Select any theme (indigo-pink)
+        (ii)  Add Hammer.js and other packages
 
 
 ## Development server
