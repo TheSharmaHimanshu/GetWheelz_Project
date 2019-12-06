@@ -15,6 +15,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 6. Run the code by executing following command;
     ng serve -o
 
+# REFERENCES
+1. Angular Material Components: https://material.angular.io/components/categories
 
 ## Development server
 
