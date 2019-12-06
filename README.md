@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
+# PACKAGE INSTALL INSTRUCTIONS
+1. Install NodeJS Application
+2. Install git bash
+3. Add git bash to VSCode Terminal (refer: https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal)
+4. Install Angular -
+    npm install -g @angular/cli
+5. Install Angular Material Packages -
+    ng add @angular/material
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
