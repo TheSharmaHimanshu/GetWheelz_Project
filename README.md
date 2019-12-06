@@ -12,6 +12,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     ng add @angular/material
         (i)   Select any theme (indigo-pink)
         (ii)  Add Hammer.js and other packages
+6. Run the code by executing following command;
+    ng serve -o
 
 
 ## Development server
