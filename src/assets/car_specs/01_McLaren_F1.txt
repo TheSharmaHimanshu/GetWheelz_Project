@@ -1,0 +1,51 @@
+McLaren F1
+
+Engine type - Number of cylinders :	V 12
+Engine Code :	S70/2
+Fuel type :	Petrol
+Fuel System :	EFi
+Lubrication :	Dry sump
+Coolant :	Water
+Engine Alignment :	Longitudinal
+Engine size - Displacement - Engine capacity :	6064 cm3 or 370 cu-in
+Bore x Stroke :	86.00 x 87.00 mm 3.39 x 3.43 inches
+Number of valves :	48 Valves
+Aspiration :	N/A
+Compression Ratio :	10.50
+Maximum power - Output - Horsepower :	627 PS or 618 bhp or 461 kW @ 7500 rpm
+Maximum torque :	617.0 Nm or 455 lb.ft @ 7500 rpm
+Drive wheels - Traction - Drivetrain :	RWD
+Transmission Gearbox - Number of speeds :	6 speed Manual
+
+Fuel Consumption - Economy - Combined:	- L/100km
+Fuel Consumption - Economy - Extra Urban:	- L/100km
+Fuel Consumption - Economy - City:	- L/100km
+Fuel Tank Capacity :	90 L - 19.8 UK gallons - 23.8 US gallons
+CO2 emissions :	
+
+Top Speed :	387 km/h or 241 Mph
+Acceleration 0 to 60 mph (0 to 96 Km/h) :	3.20 s
+Acceleration 0 to 100 km/h (0 to 62 mph) :	3.60 s
+
+Body :	Coupé
+Num. of Doors :	2
+Wheelbase :	271.8 cm or 107.01 inches
+Length :	428.8 cm or 168.82 inches
+Width :	182 cm or 71.65 inches
+Height :	114 cm or 44.88 inches
+Front Axle :	156.8 cm or 61.73 inches
+Rear Axle :	147.2 cm or 57.95 inches
+Aerodynamic drag coefficient - Cx :	0.320
+Front Brakes - Disc dimensions :	Vented Discs (332 mm)
+Rear Brakes - Dics dimensions :	Vented Discs (305 mm)
+Front Tyres - Rims dimensions :	235/45 R17
+Rear Tyres - Rims dimensions :	315/45 R17
+Front Wheels Width :	9"
+Rear Wheels Width :	11.5"
+Curb Weight :	1138 kg OR 2509 lbs
+Weight-Power Output Ratio :	1.8 kg/hp
+Trunk / Boot capacity :	- L
+Steering :	Rack and pinion. -
+Front Suspension :	Coil springs. Double wishbones. Anti-roll bar.
+Rear Suspension :	Coil springs. Double wishbones.
+

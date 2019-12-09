@@ -1,0 +1,46 @@
+Maserati GranTurismo
+
+Engine type - Number of cylinders :	V 8
+Engine Code :	-
+Fuel type :	Petrol
+Engine Alignment :	Longitudinal
+Engine size - Displacement - Engine capacity :	4244 cm3 or 259 cu-in
+Bore x Stroke :	92 x 79.8 mm 3.62 x 3.11 inches
+Number of valves :	36 Valves
+Aspiration :	N/A
+Compression Ratio :	11
+Maximum power - Output - Horsepower :	405 PS or 399 bhp or 298 kW @ 7100 rpm
+Maximum torque :	460 Nm or 339 lb.ft @ 4750 rpm
+Drive wheels - Traction - Drivetrain :	RWD
+Transmission Gearbox - Number of speeds :	6 speed Automatic
+
+Fuel Consumption - Economy - Combined:	14.3 L/100km
+20 mpg UK / 16 mpg US
+Fuel Consumption - Economy - Extra Urban:	10 L/100km
+28 mpg UK / 24 mpg US
+Fuel Consumption - Economy - City:	21.6 L/100km
+13 mpg UK / 11 mpg US
+Fuel Tank Capacity :	86 L - 18.9 UK gallons - 22.7 US gallons
+Range :	601 Km or 374 miles
+CO2 emissions :	330 g/Km (Maserati)
+
+Top Speed :	285 km/h or 177 Mph
+Acceleration 0 to 100 km/h (0 to 62 mph) :	5.2 s
+Acceleration 0 to 1000m :	23.9 s
+
+Num. of Doors :	2
+Wheelbase :	294.2 cm or 115.83 inches
+Length :	488.1 cm or 192.17 inches
+Width :	184.7 cm or 72.72 inches
+Height :	135.3 cm or 53.27 inches
+Aerodynamic drag coefficient - Cx :	0.33
+Front Brakes - Disc dimensions :	Vented Discs (330 mm)
+Rear Brakes - Dics dimensions :	Vented Discs (330 mm)
+Front Tyres - Rims dimensions :	245/40 R19
+Rear Tyres - Rims dimensions :	285/40 R19
+Curb Weight :	1955 kg OR 4310 lbs
+Weight-Power Output Ratio :	4.8 kg/hp
+Trunk / Boot capacity :	- L
+Front Suspension :	Independent. Coil springs. Anti-roll bar.
+Rear Suspension :	Independent. Coil springs. Anti-roll bar.
+
