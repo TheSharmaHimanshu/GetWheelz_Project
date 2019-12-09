@@ -36,6 +36,16 @@
     color: white;
   }
 
-  .toggle-slide{
-    background-color: blueviolet;
+  .toggle-style{
+    float: right;
+    margin-right: 75px;
+  }
+
+  mat-grid-tile{
+    background: lightblue;
+    font-size: 35px;
+  }
+
+  .category-style{
+    font-size: x-large;
   }
