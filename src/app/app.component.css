@@ -41,11 +41,30 @@
     margin-right: 75px;
   }
 
-  mat-grid-tile{
-    background: lightblue;
+  .mat-grid-tile{
     font-size: 35px;
+    background-color: black;
+    color: white;
+    opacity: 0.6;
   }
 
   .category-style{
     font-size: x-large;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  img.tile-image{
+    background-color: black;
+    color: black;
+    opacity: 0.5;
+  }
+
+  img:hover{
+    opacity: 0.1;
   }
