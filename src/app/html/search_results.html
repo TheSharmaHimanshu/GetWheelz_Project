@@ -1,0 +1,43 @@
+<link rel="stylesheet" type="text/css" href="../css/search_results.css"/>
+
+<mat-toolbar class="navbar-color" role="heading" aria-label="GetWheelz.com">
+  <span>GetWheelz.com</span>
+  <span class="fill-space"></span>
+  <span>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Search...">
+    </mat-form-field>
+  </span>
+  <span>
+    <button mat-raised-button class="button-align-right">Search</button>
+  </span>
+  <span>
+    <button mat-icon-button aria-label="Example icon-button with a heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+  </span>
+  <span>
+    <button mat-button>Login</button>
+  </span>
+</mat-toolbar>
+
+<form class="example-form">
+  <span>
+    <mdb-carousel [isControls]="true" class="carousel-multi-item multi-animation" [type]="'carousel-multi-item'" [animation]="'slide'">
+      <mdb-carousel-item *ngFor="let item of slides; let i = index">
+        <div class="col-md-4" [ngClass]="{'d-none d-md-block': cardIndex !== 0}" *ngFor="let card of item; let cardIndex = index">
+          <mdb-card class="my-1">
+            <mdb-card-img [src]="card.img" alt="Card image cap"></mdb-card-img>
+            <mdb-card-body>
+              <mdb-card-title>
+                <h4>{{card.title}}</h4>
+              </mdb-card-title>
+              <p>{{card.description}}</p>
+              <a href="#" mdbBtn color="primary" class="waves-light" mdbWavesEffect>{{card.buttonText}}</a>
+            </mdb-card-body>
+          </mdb-card>
+        </div>
+      </mdb-carousel-item>
+    </mdb-carousel>
+  </span>
+</form>
