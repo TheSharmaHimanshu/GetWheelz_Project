@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './search_results.html',
-  styleUrls: ['../css/search_results.css']
+  selector: 'search_results',
+  templateUrl: './search_results.component.html',
+  styleUrls: ['../css/search_results.component.css']
 })
-export class AppComponent {
+export class SearchResults {
   title = 'SearchResults';
   img_car1 = "../assets/car_images/01_McLaren_F1.jpg";
   img_car2 = "../assets/car_images/02_Ferrari_F50.jpg";
