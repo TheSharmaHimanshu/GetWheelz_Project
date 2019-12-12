@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { MatButtonModule, MatToolbarModule, MatIconModule, MatInputModule, MatDividerModule, MatSlideToggleModule, MatGridListModule, MatExpansionModule } from '@angular/material';
-import { IgxToggleModule, IgxButtonModule } from 'igniteui-angular'
 
 
 
@@ -12,7 +11,8 @@ const MaterialComponents = [
 ];
 
 @NgModule({
-  imports: [MaterialComponents, MatToolbarModule, MatIconModule, MatInputModule, MatDividerModule, MatSlideToggleModule, MatGridListModule, MatExpansionModule, IgxToggleModule, IgxButtonModule],
-  exports: [MaterialComponents, MatToolbarModule, MatIconModule, MatInputModule, MatDividerModule, MatSlideToggleModule, MatGridListModule, MatExpansionModule, IgxToggleModule, IgxButtonModule]
+  imports: [MaterialComponents, MatToolbarModule, MatIconModule, MatInputModule, MatDividerModule, MatSlideToggleModule, MatGridListModule, MatExpansionModule],
+  exports: [MaterialComponents, MatToolbarModule, MatIconModule, MatInputModule, MatDividerModule, MatSlideToggleModule, MatGridListModule, MatExpansionModule
+  ]
 })
 export class MaterialModule { }
