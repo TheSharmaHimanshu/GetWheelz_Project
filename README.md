@@ -12,7 +12,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     ng add @angular/material
         (i)   Select any theme (indigo-pink)
         (ii)  Add Hammer.js and other packages
-6. Run the code by executing following command;
+6. Install Bootstrap module
+    npm install --save @ng-bootstrap/ng-bootstrap
+7. Run the code by executing following command;
     ng serve -o
 
 # REFERENCES
