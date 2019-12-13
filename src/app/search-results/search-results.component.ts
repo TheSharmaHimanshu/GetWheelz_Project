@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-search-results',
   templateUrl: './search_results.component.html',
-  styleUrls: ['../css/search_results.component.css'],
+  styleUrls: ['./search_results.component.css'],
   styles: []
 })
 export class SearchResultsComponent implements OnInit {
