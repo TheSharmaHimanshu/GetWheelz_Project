@@ -10,15 +10,8 @@
 .example-icon {
     padding: 0 14px;
 }
-
-.example-form {
-    min-width: 350px;
-    max-width: 800px;
-    width: 80%;    
-    margin: auto;
-}
   
-.example-full-width {
+.full-width {
     width: 80%;
     margin-top: 5px;
 }
@@ -38,6 +31,10 @@
 
 .toggle-slide{
   background-color: blueviolet;
+}
+
+.page-title-bar{
+  background-color: lightgray ;
 }
 
 .search-results {
@@ -80,14 +77,19 @@
   left: 80%;
   transform: scale(0.7) translate(-71%, -69%);
   -ms-transform: translate(-50%, -50%);
-  color: blueviolet;
+  color: lightgray;
   border: none;
   cursor: pointer;
   border-radius: 5px;
 }
   
 .carousel-container .toggle-favourite:hover {
-  color: white;
+  color: black;
+  border: none;
+}
+
+.carousel-container .toggle-favourite:focus {
+  color: black;
   border: none;
 }
 
