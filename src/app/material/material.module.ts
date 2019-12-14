@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
-import { MatButtonModule, MatToolbarModule, MatIconModule, MatInputModule, MatDividerModule, MatSlideToggleModule, MatGridListModule, MatExpansionModule, MatCardModule, MatBottomSheetModule, MatListModule, MatSelectModule } from '@angular/material';
+import { MatButtonModule, MatToolbarModule, MatDialogModule, MatIconModule, MatInputModule, MatDividerModule, MatSlideToggleModule, MatGridListModule, MatExpansionModule, MatCardModule, MatBottomSheetModule, MatListModule, MatSelectModule } from '@angular/material';
 import { AdvanceSearchComponent } from '../advance-search/advance-search.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoginComponent } from '../login/login.component';
 
 
 const MaterialComponents = [
@@ -14,9 +15,9 @@ const MaterialComponents = [
 ];
 
 @NgModule({
-  declarations: [AdvanceSearchComponent],
-  imports: [MaterialComponents, MatSelectModule, BrowserAnimationsModule, MatListModule, MatBottomSheetModule, MatToolbarModule, MatIconModule, MatInputModule, MatDividerModule, MatSlideToggleModule, MatGridListModule, MatExpansionModule, MatCardModule],
-  exports: [MaterialComponents, MatSelectModule, MatListModule, BrowserAnimationsModule, MatBottomSheetModule, MatToolbarModule, MatIconModule, MatInputModule, MatDividerModule, MatSlideToggleModule, MatGridListModule, MatExpansionModule, MatCardModule],
-  entryComponents: [AdvanceSearchComponent]
+  declarations: [AdvanceSearchComponent, LoginComponent],
+  imports: [MaterialComponents, MatDialogModule, MatSelectModule, BrowserAnimationsModule, MatListModule, MatBottomSheetModule, MatToolbarModule, MatIconModule, MatInputModule, MatDividerModule, MatSlideToggleModule, MatGridListModule, MatExpansionModule, MatCardModule],
+  exports: [MaterialComponents, MatDialogModule, MatSelectModule, MatListModule, BrowserAnimationsModule, MatBottomSheetModule, MatToolbarModule, MatIconModule, MatInputModule, MatDividerModule, MatSlideToggleModule, MatGridListModule, MatExpansionModule, MatCardModule],
+  entryComponents: [AdvanceSearchComponent, LoginComponent]
 })
 export class MaterialModule { }

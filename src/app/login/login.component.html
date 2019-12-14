@@ -1,0 +1,17 @@
+<h3 class="center-align">Login</h3>
+
+<span>
+    <mat-form-field class="login-style">
+        <input matInput placeholder="Email">
+    </mat-form-field>
+    <mat-form-field class="login-style">
+        <input matInput placeholder="Password" required type="password">
+    </mat-form-field>
+</span>
+
+<span>
+    <button mat-raised-button color="warn" routerLink="/categories" routerLinkActive="active"
+        (click)="collapseList('shut')">Cancel</button>
+    <button mat-raised-button color="primary" routerLink="/search-results" routerLinkActive="active"
+        (click)="collapseList('shut')" class="toggle-style">Login</button>
+</span>
