@@ -1,0 +1,37 @@
+<mat-list role="list">
+    <mat-form-field>
+        <mat-label>Car Type</mat-label>
+        <select matNativeControl>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+    </mat-form-field>
+    <br /><br />
+    <mat-form-field>
+        <mat-label>Engine</mat-label>
+        <select matNativeControl>
+            <option value="volvo">V4</option>
+            <option value="saab">V6</option>
+            <option value="mercedes">V8</option>
+            <option value="audi">V12</option>
+        </select>
+    </mat-form-field>
+    <br /><br />
+    <mat-form-field>
+        <mat-label>Transmission</mat-label>
+        <select matNativeControl>
+            <option value="volvo">Automatic</option>
+            <option value="saab">Manual</option>
+            <option value="mercedes">Semi Automatic</option>
+            <option value="audi">Dual</option>
+        </select>
+    </mat-form-field>
+</mat-list>
+
+<br /><br />
+<span>
+    <button mat-raised-button color="warn" routerLink="/categories" routerLinkActive="active" (click)="collapseList('shut')">Cancel</button>
+    <button mat-raised-button color="primary" routerLink="/search-results" routerLinkActive="active" (click)="collapseList('shut')" class="toggle-style">Apply</button>
+</span>

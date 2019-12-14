@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatBottomSheet } from '@angular/material';
+import { AdvanceSearchComponent } from '../advance-search/advance-search.component';
 
 @Component({
   selector: 'app-categories',
@@ -9,7 +11,11 @@ import { Component, OnInit } from '@angular/core';
 
 export class CategoriesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private bottomSheet: MatBottomSheet) { }
+
+  openAdvanceSearch(){
+    this.bottomSheet.open(AdvanceSearchComponent)
+  }
 
   ngOnInit() {
   }
