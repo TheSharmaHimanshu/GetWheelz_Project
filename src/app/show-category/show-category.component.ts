@@ -13,16 +13,22 @@ export class ShowCategoryComponent implements OnInit {
   page_title:string;
   images_index:number;
   category_cars;
+  chosenCar: string;
 
   constructor(private data: DataService) { }
 
   ngOnInit() {
     this.data.currentMessage.subscribe(message => this.getPageInfo(message))
+    this.data.currentCar.subscribe(chosenCar => this.getPageInfo(chosenCar))
   }
 
   getPageInfo(message){
     this.page_title = message + ' Cars';
     this.category_cars = this.cars.filter( car => car.category == message);
+  }
+
+  sendCar(car){
+
   }
 
   cars = [
