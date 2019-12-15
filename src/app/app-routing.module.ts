@@ -7,8 +7,8 @@ import{CarDetailsComponent} from './car-details/car-details.component';
 
 const routes: Routes = [
   { path: 'search-results', component: SearchResultsComponent },
-  { path: 'categories', component: CategoriesComponent},
-  { path: 'car_details', component:CarDetailsComponent }
+  { path: '', component: CategoriesComponent },
+  { path: 'car-details', component:CarDetailsComponent }
 ];
 
 @NgModule({
