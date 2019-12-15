@@ -1,34 +1,73 @@
-<mat-card class="example-card align-card">
+<body class="bgcolor">
+
+<mat-toolbar class="navbar-color" role="heading" aria-label="GetWheelz.com">
+  <img src="../assets/logo.png" class="logo-style">
+  <span class="fill-space"></span>
+  <span>
+    <button mat-stroked-button (click)="openLogin()" class="button-row">Login</button>
+  </span>
+  <span>
+    <button mat-stroked-button (click)="openRegister()">Register</button>
+  </span>
+</mat-toolbar>
+
+<mat-card class="details-card">  
+<br/>
   <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>Car Name</mat-card-title>
-    <mat-card-subtitle>Car Class</mat-card-subtitle>
+    <!-- <div mat-card-avatar class="example-header-image"></div> -->
+    <div>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Lamborghini_Logo.svg/1200px-Lamborghini_Logo.svg.png"
+        class="example-header-image">
+
+      <mat-card-title class="right-align-text">Lamborghini</mat-card-title>
+      <mat-card-subtitle class="right-align-text">Aventador</mat-card-subtitle>
+    </div>
   </mat-card-header>
 
-  <mat-card-actions >
-    <button  mat-button  >Back</button>
-
-    <button   mat-button class="push-to-right" >Forward</button>
+  <mat-card-actions  class="button-margin">
+    <button mat-stroked-button color="primary">Back</button>
+    <button mat-stroked-button color="primary" class="push-to-right">Forward</button>
   </mat-card-actions>
 
+  <img mat-card-image [src]="img_car3" alt="Photo of a ...." class="car-image-style">
 
+  <mat-grid-list cols="2" rowHeight="1:1">
+    <mat-grid-tile class="parameter-style">
+      Engine<br/>
+      Transmission<br/>
+      Top Speed<br/>
+      Accelaration<br/>
+      No. of Doors<br/>
+      Fuel Efficiency<br/>
+      Electric<br/>
+      Launched
+    </mat-grid-tile>
+    <mat-grid-tile class="parameter-detail-style">
+      V8<br/>
+      Automatic<br/>
+      400 Km/H<br/>
+      0-100 in 2.3 secs<br/>
+      2<br/>
+      6 Km/L<br/>
+      No<br/>
+      2015
+    </mat-grid-tile>
+  </mat-grid-list>
 
-
-
-
-
-
-
-
-  
-
-
-
-  <img mat-card-image [src]="img_car3" alt="Photo of a ....">
-  <mat-card-content>
+  <!-- <mat-card-content class="center-align-text">
     <p>
-      Car description...
+      Engine : V8 <br />
+      Transmission : Automatic <br />
+      Top Speed : 400 Km/H <br />
+      Accelaration : 0-100 in 2.3 secs <br />
+      No. of Doors : 2 <br />
+      Fuel Efficiency : 6 Km/L <br />
+      Electric : No <br />
+      Launched : 2015 <br />
     </p>
-  </mat-card-content>
+  </mat-card-content> -->
 
 </mat-card>
+
+</body>
