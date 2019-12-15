@@ -13,9 +13,9 @@ import { DataService } from "../data.service";
 
 export class CategoriesComponent implements OnInit {
 
-  //message:string;
+  message:string;
 
-  constructor(private bottomSheet: MatBottomSheet, public dialog: MatDialog, /*private data: DataService*/) { }
+  constructor(private bottomSheet: MatBottomSheet, public dialog: MatDialog, private data: DataService) { }
 
   openAdvanceSearch(){
     this.bottomSheet.open(AdvanceSearchComponent)
@@ -26,7 +26,11 @@ export class CategoriesComponent implements OnInit {
   }
 
   ngOnInit() {
-    //this.data.currentMessage.subscribe(message => this.message = message)
+    this.data.currentMessage.subscribe(message => this.message = message)
+  }
+
+  sendCategory(category) {
+    this.data.changeMessage(category)
   }
 
 }
