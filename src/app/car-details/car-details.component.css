@@ -1,5 +1,5 @@
 .example-card {
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .example-header-image {
@@ -13,10 +13,12 @@
   
 }
 
+.push-to-right{ float: right;}
+
 
 mat-card-subtitle{margin-left: 450px;}
 
 mat-card-title{margin-left: 450px;}
 
-mat-card-actions{margin-left: 300px;}
+
 
