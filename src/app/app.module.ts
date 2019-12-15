@@ -6,21 +6,23 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
+import { DataService } from './data.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    routingComponents   
+    routingComponents
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    NgbModule
+    NgbModule,
   ],
-  providers: [],
+  providers: [
+    DataService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {

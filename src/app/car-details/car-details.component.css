@@ -1,0 +1,22 @@
+.example-card {
+  max-width: 1200px;
+}
+
+.example-header-image {
+  background-image:  ;
+  background-size: cover;
+}
+
+.align-card{
+  margin-left: 300px;
+  margin-top: 50px;
+  
+}
+
+
+mat-card-subtitle{margin-left: 450px;}
+
+mat-card-title{margin-left: 450px;}
+
+mat-card-actions{margin-left: 300px;}
+
