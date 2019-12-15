@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from "../data.service";
+//import cars as data from "../../assets/car_specs/car_specs.json";
 
 @Component({
   selector: 'app-show-category',

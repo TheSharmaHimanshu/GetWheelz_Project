@@ -27,7 +27,7 @@ export class CarDetailsComponent implements OnInit {
 
 
 
-
+/*
 
 export interface Tile {
   color: string;
@@ -38,7 +38,7 @@ export interface Tile {
 
 /**
  * @title Dynamic grid-list
- */
+ 
 @Component({
   selector: 'grid-list-dynamic-example',
   templateUrl: 'grid-list-dynamic-example.html',
@@ -52,7 +52,4 @@ export class GridListDynamicExample {
     {text: 'Four', cols: 2, rows: 1, color: '#DDBDF1'},
   ];
 }
-
-
-
-
+*/
