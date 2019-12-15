@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatBottomSheet, MatDialog } from '@angular/material';
 import { AdvanceSearchComponent } from '../advance-search/advance-search.component';
 import { LoginComponent } from '../login/login.component';
+import { DataService } from "../data.service";
 
 @Component({
   selector: 'app-categories',
@@ -12,7 +13,9 @@ import { LoginComponent } from '../login/login.component';
 
 export class CategoriesComponent implements OnInit {
 
-  constructor(private bottomSheet: MatBottomSheet, public dialog: MatDialog) { }
+  message:string;
+
+  constructor(private bottomSheet: MatBottomSheet, public dialog: MatDialog, private data: DataService) { }
 
   openAdvanceSearch(){
     this.bottomSheet.open(AdvanceSearchComponent)
@@ -23,6 +26,7 @@ export class CategoriesComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.data.currentMessage.subscribe(message => this.message = message)
   }
 
 }

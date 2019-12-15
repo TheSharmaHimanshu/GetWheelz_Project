@@ -1,0 +1,121 @@
+<mat-toolbar class="navbar-color" role="heading" aria-label="GetWheelz.com" style="font-family: 'Brush Script MT'; font-size: 36px;">
+  <span>GetWheelz.com</span>
+  <span class="fill-space"></span>
+  <span>
+    <mat-form-field class="full-width" style="font-size: 16px;">
+      <input matInput placeholder="Search...">
+    </mat-form-field>
+  </span>
+  <span>
+    <button mat-raised-button class="button-align-right">Search</button>
+  </span>
+  <span>
+    <button mat-icon-button aria-label="Icon-button with a heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+  </span>
+  <span>
+    <button mat-button>Login</button>
+  </span>
+</mat-toolbar>
+
+<mat-toolbar class="page-title-bar" role="heading" >
+  <div style="text-align: center;">
+    <span>Search Results</span>
+  </div>
+</mat-toolbar>
+
+<form class="search-results">
+  <span>
+    <ngb-carousel showNavigationArrows="true" interval="3000" pauseOnHover="true">
+      <ng-template ngbSlide>
+        <img [src]="img_car1" alt="Random first slide" width="800" height="450">
+        <div class="carousel-container">
+            <div class="carousel-caption">
+              <h3>McLaren F1</h3>
+              <p>
+                Body :	Coupé<br />
+                Num. of Doors :	2<br />
+                Top Speed :	387 km/h or 241 Mph<br />
+                Engine type - Number of cylinders :	V 12<br />
+                Fuel type :	Petrol<br />
+                Price: $ 1,000,000
+              </p>
+            </div>
+            <button class="overlay-favourite" mat-icon-button>
+              <mat-icon>favorite</mat-icon>
+            </button>
+            <button class="toggle-favourite" mat-icon-button>
+              <mat-icon>favorite</mat-icon>
+            </button>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img [src]="img_car2" alt="Random second slide" width="800" height="450">
+        <div class="carousel-container">
+            <div class="carousel-caption">
+                <h3>Ferrari F50</h3>
+                <p>
+                    Body :	Coupé<br />
+                    Num. of Doors :	2<br />
+                    Top Speed :	325 km/h or 202 Mph<br />
+                    Engine type - Number of cylinders :	V 12<br />
+                    Fuel type :	Petrol<br />
+                    Price: $ 3,600,000
+                </p>
+            </div>
+            <button class="overlay-favourite" mat-icon-button>
+                <mat-icon>favorite</mat-icon>
+              </button>
+              <button class="toggle-favourite" mat-icon-button>
+                  <mat-icon>favorite</mat-icon>
+            </button>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img [src]="img_car3" alt="Random third slide" width="800" height="450">
+        <div class="carousel-container">
+            <div class="carousel-caption">
+                <h3>Lamborghini Murcielago</h3>
+                <p>
+                    Body :	Coupé<br />
+                    Num. of Doors :	2<br />
+                    Top Speed :	330 km/h or 205 Mph<br />
+                    Engine type - Number of cylinders :	V 12<br />
+                    Fuel type :	Petrol<br />
+                    Price: $ 382,400
+                    </p>
+            </div>
+            <button class="overlay-favourite" mat-icon-button>
+                <mat-icon>favorite</mat-icon>
+              </button>
+              <button class="toggle-favourite" mat-icon-button>
+                  <mat-icon>favorite</mat-icon>
+            </button>
+          </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img [src]="img_car4" alt="Random third slide" width="800" height="450">
+        <div class="carousel-container">
+            <div class="carousel-caption">
+                <h3>Maserati GranTurismo</h3>
+                <p>
+                    Body :	Coupé<br />
+                    Num. of Doors :	2<br />
+                    Top Speed :	285 km/h or 177 Mph<br />
+                    Engine type - Number of cylinders :	V 8<br />
+                    Fuel type :	Petrol<br />
+                    Price: $ 164,900
+                </p>
+              </div>
+              <button class="overlay-favourite" mat-icon-button>
+                  <mat-icon>favorite</mat-icon>
+                </button>
+              <button class="toggle-favourite" mat-icon-button>
+                  <mat-icon>favorite</mat-icon>
+              </button>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </span>
+</form>
