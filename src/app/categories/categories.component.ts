@@ -30,7 +30,7 @@ export class CategoriesComponent implements OnInit {
   }
 
   sendCategory(category) {
-    this.data.changeMessage(category)
+    this.data.changeMessage(category);
   }
 
 }

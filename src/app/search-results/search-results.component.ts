@@ -12,7 +12,7 @@ export class SearchResultsComponent implements OnInit {
 
   ngOnInit() {
   }
-  title = 'SearchResults';
+  page_title = 'Search Results';
   img_car1 = "../assets/car_images/01_McLaren_F1.jpg";
   img_car2 = "../assets/car_images/02_Ferrari_F50.jpg";
   img_car3 = "../assets/car_images/03_Lamborghini_Murcielago.jpg";
