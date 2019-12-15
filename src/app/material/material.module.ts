@@ -16,8 +16,8 @@ const MaterialComponents = [
 
 @NgModule({
   declarations: [AdvanceSearchComponent, LoginComponent],
-  imports: [MaterialComponents, MatDialogModule, MatSelectModule, BrowserAnimationsModule, MatListModule, MatBottomSheetModule, MatToolbarModule, MatIconModule, MatInputModule, MatDividerModule, MatSlideToggleModule, MatGridListModule, MatExpansionModule, MatCardModule],
-  exports: [MaterialComponents, MatDialogModule, MatSelectModule, MatListModule, BrowserAnimationsModule, MatBottomSheetModule, MatToolbarModule, MatIconModule, MatInputModule, MatDividerModule, MatSlideToggleModule, MatGridListModule, MatExpansionModule, MatCardModule],
+  imports: [MatButtonModule,MaterialComponents, MatDialogModule, MatSelectModule, BrowserAnimationsModule, MatListModule, MatBottomSheetModule, MatToolbarModule, MatIconModule, MatInputModule, MatDividerModule, MatSlideToggleModule, MatGridListModule, MatExpansionModule, MatCardModule],
+  exports: [MatButtonModule,MaterialComponents, MatDialogModule, MatSelectModule, MatListModule, BrowserAnimationsModule, MatBottomSheetModule, MatToolbarModule, MatIconModule, MatInputModule, MatDividerModule, MatSlideToggleModule, MatGridListModule, MatExpansionModule, MatCardModule],
   entryComponents: [AdvanceSearchComponent, LoginComponent]
 })
 export class MaterialModule { }
