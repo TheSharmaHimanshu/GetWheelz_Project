@@ -20,22 +20,9 @@ export class ShowCategoryComponent implements OnInit {
   }
 
   getPageInfo(message){
-    var i:number;
     this.page_title = message + ' Cars';
     this.category_cars = this.cars.filter( car => car.category == message);
   }
-
-  categories = [
-    'Sport',
-    'Performance',
-    'Luxury',
-    'Hatchback',
-    'SUV',
-    'Concept',
-    'Electric',
-    'GT',
-    'Convertible'
-  ];
 
   cars = [
     {
@@ -48,7 +35,7 @@ export class ShowCategoryComponent implements OnInit {
       speed: "387 km/h or 241 Mph",
       engine: "V 12",
       fuel: "Petrol",
-      proce: "$ 1,000,000"
+      price: "$ 1,000,000"
     },
     {
       img: "../assets/car_images/02_Ferrari_F50.jpg",
@@ -60,7 +47,7 @@ export class ShowCategoryComponent implements OnInit {
       speed: "387 km/h or 241 Mph",
       engine: "V 12",
       fuel: "Petrol",
-      proce: "$ 1,000,000"
+      price: "$ 1,000,000"
     },
     {
       img: "../assets/car_images/03_Lamborghini_Murcielago.jpg",
@@ -84,7 +71,7 @@ export class ShowCategoryComponent implements OnInit {
       speed: "387 km/h or 241 Mph",
       engine: "V 12",
       fuel: "Petrol",
-      proce: "$ 1,000,000"
+      price: "$ 1,000,000"
     },
   ];
 }
