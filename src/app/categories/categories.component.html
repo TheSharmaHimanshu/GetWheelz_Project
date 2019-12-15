@@ -1,70 +1,71 @@
 <mat-toolbar class="navbar-color" role="heading" aria-label="GetWheelz.com">
-    <span>GetWheelz.com</span>
-    <span class="fill-space"></span>
-    <span>
-      <button mat-button (click)="openLogin()">Login</button>
-    </span>
-    <span>
-      <button mat-button (click)="openLogin()">Register</button>
-    </span>
-  </mat-toolbar>
-  
-  <form class="example-form">
-    <span>
-      <mat-form-field class="example-full-width">
-        <input matInput placeholder="Search...">
-      </mat-form-field>
-      <button mat-raised-button class="button-align-right" routerLink="/search-results" routerLinkActive="active">Search</button>
-    </span>
-    <mat-slide-toggle class="toggle-style" (click)='openAdvanceSearch()'>Advanced Search</mat-slide-toggle>
-  
-  </form>
-  
-  <br /><br />
-  <mat-divider></mat-divider>
-  
-  <br />
+  <img src="../assets/logo.png" class="logo-style">
+  <span class="fill-space"></span>
+  <span>
+    <button mat-stroked-button (click)="openLogin()" class="button-row">Login</button>
+  </span>
+  <span>
+    <button mat-stroked-button (click)="openRegister()" >Register</button>
+  </span>
+</mat-toolbar>
+
+<form class="example-form">
+  <span>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Search...">
+    </mat-form-field>
+    <button mat-raised-button class="button-align-right" routerLink="/search-results"
+      routerLinkActive="active">Search</button>
+  </span>
+  <mat-slide-toggle class="toggle-style" (click)='openAdvanceSearch()' >Advanced Search</mat-slide-toggle>
+
+</form>
+
+<br /><br />
+<mat-divider></mat-divider>
+
+<br />
 
 <span clas="category-style">
-    <mat-grid-list cols="3" rowHeight="3:1">
-      <b>
-        <mat-grid-tile>
-          <img src="../assets/car_images/sportscar.jpg" class="tile-image">
-          <div class="centered">SPORTS</div>
-        </mat-grid-tile>
-        <mat-grid-tile>
-          <img src="../assets/car_images/sedancar.jpg" class="tile-image">
-          <div class="centered">PERFORMANCE</div>
-        </mat-grid-tile>
-        <mat-grid-tile>
-          <img src="../assets/car_images/luxurycar.jpg" class="tile-image">
-          <div class="centered">LUXURY</div>
-        </mat-grid-tile>
-        <mat-grid-tile>
-          <img src="../assets/car_images/hatchback.jpg" class="tile-image">
-          <div class="centered">HATCHBACK</div>
-        </mat-grid-tile>
-        <mat-grid-tile>
-          <img src="../assets/car_images/suvcar.jpg" class="tile-image">
-          <div class="centered">SUV</div>
-        </mat-grid-tile>
-        <mat-grid-tile>
-          <img src="../assets/car_images/01_McLaren_F1.jpg" class="tile-image">
-          <div class="centered">CONCEPT</div>
-        </mat-grid-tile>
-        <mat-grid-tile>
-          <img src="../assets/car_images/03_Lamborghini_Murcielago.jpg" class="tile-image">
-          <div class="centered">ELECTRIC</div>
-        </mat-grid-tile>
-        <mat-grid-tile>
-          <img src="../assets/car_images/ferraricar.jpg" class="tile-image">
-          <div class="centered">GT</div>
-        </mat-grid-tile>
-        <mat-grid-tile>
-          <img src="../assets/car_images/04_Maserati_GranTurismo.jpg" class="tile-image">
-          <div class="centered">CONVERTIBLE</div>
-        </mat-grid-tile>
-  
-      </b>
-    </mat-grid-list>
-  </span>
+  <mat-grid-list cols="3" rowHeight="3:1">
+    <b>
+      <mat-grid-tile>
+        <img src="../assets/car_images/sportscar.jpg" class="tile-image">
+        <div class="centered">SPORTS</div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <img src="../assets/car_images/sedancar.jpg" class="tile-image">
+        <div class="centered">PERFORMANCE</div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <img src="../assets/car_images/luxurycar.jpg" class="tile-image">
+        <div class="centered">LUXURY</div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <img src="../assets/car_images/hatchback.jpg" class="tile-image">
+        <div class="centered">HATCHBACK</div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <img src="../assets/car_images/suvcar.jpg" class="tile-image">
+        <div class="centered">SUV</div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <img src="../assets/car_images/01_McLaren_F1.jpg" class="tile-image">
+        <div class="centered">CONCEPT</div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <img src="../assets/car_images/03_Lamborghini_Murcielago.jpg" class="tile-image">
+        <div class="centered">ELECTRIC</div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <img src="../assets/car_images/ferraricar.jpg" class="tile-image">
+        <div class="centered">GT</div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <img src="../assets/car_images/04_Maserati_GranTurismo.jpg" class="tile-image">
+        <div class="centered">CONVERTIBLE</div>
+      </mat-grid-tile>
+
+    </b>
+  </mat-grid-list>
+</span>

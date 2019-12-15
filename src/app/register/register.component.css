@@ -1,0 +1,30 @@
+.login-style {
+    width: 100%;
+  }
+
+  .toggle-style{
+    float: right;
+    color: white;
+  }
+
+  .center-align{
+      text-align: center;
+      align-content: center;
+  }
+
+  .full-width {
+    width: 60%;
+  }
+
+  .table-width{
+      width: 100%
+  }
+
+  .name-width{
+      width: 99%;
+  }
+
+  .date-margin{
+      margin-left: 20px;
+      width: 38%;
+  }

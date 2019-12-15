@@ -1,0 +1,44 @@
+<h3 class="center-align">Register</h3>
+
+<span>
+    <table class="table-width" cellspacing="0">
+        <tr>
+            <td>
+                <mat-form-field class="name-width">
+                    <input matInput placeholder="First name">
+                </mat-form-field>
+            </td>
+            <td>
+                <mat-form-field class="name-width">
+                    <input matInput placeholder="Last Name">
+                </mat-form-field>
+            </td>
+        </tr>
+    </table>
+    <mat-form-field class="full-width">
+        <span matPrefix>+49 &nbsp;</span>
+        <input type="tel" matInput placeholder="Telephone">
+        <mat-icon matSuffix>mode_edit</mat-icon>
+    </mat-form-field>
+    <mat-form-field class="date-margin">
+        <input matInput [matDatepicker]="picker" placeholder="Date of Birth">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    <mat-form-field class="login-style">
+        <input matInput placeholder="Email">
+    </mat-form-field>
+    <mat-form-field class="login-style">
+        <input matInput placeholder="Password" required type="password">
+    </mat-form-field>
+    <mat-form-field class="login-style">
+        <input matInput placeholder="Confirm Password" required type="password">
+    </mat-form-field>
+</span>
+
+<span>
+    <button mat-raised-button color="warn" routerLink="/categories" routerLinkActive="active"
+        (click)="dismissDialog()">Cancel</button>
+    <button mat-raised-button color="primary" routerLink="/search-results" routerLinkActive="active"
+        class="toggle-style">Register</button>
+</span>

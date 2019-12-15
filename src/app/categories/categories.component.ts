@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { MatBottomSheet, MatDialog } from '@angular/material';
 import { AdvanceSearchComponent } from '../advance-search/advance-search.component';
 import { LoginComponent } from '../login/login.component';
+import { RegisterComponent } from '../register/register.component';
+
 
 @Component({
   selector: 'app-categories',
@@ -20,6 +22,10 @@ export class CategoriesComponent implements OnInit {
 
   openLogin(){
     this.dialog.open(LoginComponent);
+  }
+
+  openRegister(){
+    this.dialog.open(RegisterComponent);
   }
 
   ngOnInit() {
