@@ -21,9 +21,7 @@ Fuel Consumption - Economy - Extra Urban:	15.1 L/100km
 19 mpg UK / 16 mpg US
 Fuel Consumption - Economy - City:	32.6 L/100km
 9 mpg UK / 7 mpg US
-Fuel Tank Capacity :	100 L
-22 UK gallons
-26.4 US gallons
+Fuel Tank Capacity :	100 L - 22 UK gallons - 26.4 US gallons
 Range :	465 Km or 289 miles
 CO2 emissions :	501 g/Km (estimate)
 

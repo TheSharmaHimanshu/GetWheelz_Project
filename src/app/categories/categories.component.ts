@@ -38,4 +38,8 @@ export class CategoriesComponent implements OnInit {
     this.data.changeMessage(category);
   }
 
+  search(newSearch: string) {
+    this.data.search(newSearch);
+  }
+
 }

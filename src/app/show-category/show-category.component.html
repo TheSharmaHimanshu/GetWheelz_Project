@@ -36,7 +36,7 @@
   <span>
     <ngb-carousel *ngIf="cars" showNavigationArrows="true" interval="3000" pauseOnHover="true">
       <ng-template ngbSlide *ngFor = "let car of category_cars">
-        <img [src]="car.img" alt="Random slide" width="800" height="450">
+        <img [src]="car.img" alt="Random slide" width="800" height="450" routerLink="/car-details" routerLinkActive="active" (click)="sendCar(car)">
         <div class="carousel-container">
             <div class="carousel-caption">
               <h3>{{ car.maker }} {{ car.model }}</h3>
