@@ -17,7 +17,7 @@ export class DataService {
     this.messageSource.next(message)
   }
 
-  goToDetails(chosenCar: string){
+  goToDetails(chosenCar){
     this.selectedCar.next(chosenCar)
   }      
 }
