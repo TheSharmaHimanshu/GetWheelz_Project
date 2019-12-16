@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from "../data.service";
+import { carsDetails } from "../../assets/car_specs/car_specs";
 
 @Component({
   selector: 'app-search-results',
@@ -8,13 +10,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchResultsComponent implements OnInit {
 
-  constructor() { }
+  page_title:string;
+  images_index:number;
+  searched_cars;
+  chosenCar;
+  cars = carsDetails;
+
+  constructor(private data: DataService) { }
 
   ngOnInit() {
+    this.data.currentSearch.subscribe(search => this.getPageInfo(search));
+    this.data.currentCar.subscribe(chosenCar => this.chosenCar = chosenCar);
   }
-  page_title = 'Search Results';
-  img_car1 = "../assets/car_images/01_McLaren_F1.jpg";
-  img_car2 = "../assets/car_images/02_Ferrari_F50.jpg";
-  img_car3 = "../assets/car_images/03_Lamborghini_Murcielago.jpg";
-  img_car4 = "../assets/car_images/04_Maserati_GranTurismo.jpg";
+
+  getPageInfo(parameters){
+    this.page_title = 'Search Results';
+    if(parameters == ''){
+      this.searched_cars = this.cars;
+    }
+    else{
+      this.searched_cars = this.cars.filter( car => (car.model.toUpperCase() == parameters.toUpperCase() || car.maker.toUpperCase() == parameters.toUpperCase()));
+    }    
+  }
+
+  sendCar(car){
+    this.data.goToDetails(car);
+  }
 }

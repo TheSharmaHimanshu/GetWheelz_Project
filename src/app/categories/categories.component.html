@@ -12,10 +12,9 @@
 <form class="example-form">
   <span>
     <mat-form-field class="example-full-width">
-      <input matInput placeholder="Search...">
+      <input matInput placeholder="Search..." #newSearch (keyup.enter)="seach(newSearch.value); " (blur)="search(newSearch.value); newSearch.value='' ">
     </mat-form-field>
-    <button mat-raised-button class="button-align-right" routerLink="/search-results"
-      routerLinkActive="active">Search</button>
+    <button mat-raised-button class="button-align-right" routerLink="/search-results" routerLinkActive="active" (click)="search(newSearch.value)">Search</button>
   </span>
   <mat-slide-toggle class="toggle-style" (click)='openAdvanceSearch()' >Advanced Search</mat-slide-toggle>
 

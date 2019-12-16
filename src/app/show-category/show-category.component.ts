@@ -8,6 +8,7 @@ import { carsDetails } from "../../assets/car_specs/car_specs";
   styleUrls: ['./show-category.component.css'],
   styles: []
 })
+
 export class ShowCategoryComponent implements OnInit {
 
   page_title:string;
@@ -31,6 +32,4 @@ export class ShowCategoryComponent implements OnInit {
   sendCar(car){
     this.data.goToDetails(car);
   }
-
-  
 }
