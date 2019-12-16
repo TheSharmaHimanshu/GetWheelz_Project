@@ -7,11 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DataService } from './data.service';
+import { CompareCarsComponent } from './compare-cars/compare-cars.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    routingComponents
+    routingComponents,
+    CompareCarsComponent
   ],
   imports: [
     BrowserModule,

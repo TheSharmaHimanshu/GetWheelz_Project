@@ -1,5 +1,6 @@
 <mat-toolbar class="navbar-color" role="heading" aria-label="GetWheelz.com" style="font-family: 'Brush Script MT'; font-size: 36px;">
-  <span>GetWheelz.com</span>
+  <img src="../assets/logo.png" class="logo-style" routerLink="/categories"
+  routerLinkActive="active">
   <span class="fill-space"></span>
   <span>
     <mat-form-field class="full-width" style="font-size: 16px;">
@@ -9,20 +10,26 @@
   <span>
     <button mat-raised-button class="button-align-right">Search</button>
   </span>
-  <span>
-    <button mat-icon-button aria-label="Icon-button with a heart icon">
-      <mat-icon>favorite</mat-icon>
+    <span>
+    <button mat-icon-button aria-label="Icon-button with a user icon">
+      <mat-icon class="left-margin">star</mat-icon>
     </button>
   </span>
   <span>
-    <button mat-button>Login</button>
+    <button mat-button [matMenuTriggerFor]="menu" aria-label="Icon-button with a favourite icon">
+      <mat-icon class="left-margin">person</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Personalize</button>
+      <button mat-menu-item>Edit Profile</button>
+      <button mat-menu-item>Settings</button>
+      <button mat-menu-item>Logout</button>
+    </mat-menu>
   </span>
 </mat-toolbar>
 
 <mat-toolbar class="page-title-bar" role="heading" >
-  <div style="text-align: center;">
-    <span>{{page_title}}</span>
-  </div>
+    <h3 class="display-inline">{{page_title}}</h3>
 </mat-toolbar>
 
 <form class="search-results">

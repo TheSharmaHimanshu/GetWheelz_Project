@@ -99,3 +99,8 @@
 .carousel-control-next:hover{
     background: rgba(0, 0, 0, 0.7);
 }
+
+.header-align{
+  align-items: center;
+  align-content: center;
+}
