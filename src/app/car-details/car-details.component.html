@@ -34,120 +34,122 @@
     <h3 class="display-inline">Car Details</h3>
   </mat-toolbar>
 
+  <div class="card-center">
+    <mat-card class="details-card">
+      <br />
+      <mat-card-header>
+        <div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Lamborghini_Logo.svg/1200px-Lamborghini_Logo.svg.png"
+            class="example-header-image">
 
-  <mat-card class="details-card">
-    <br />
-    <mat-card-header>
-      <div>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Lamborghini_Logo.svg/1200px-Lamborghini_Logo.svg.png"
-          class="example-header-image">
+          <mat-card-title class="right-align-text">{{car.maker}}</mat-card-title>
+          <mat-card-subtitle class="right-align-text">{{car.model}}</mat-card-subtitle>
+        </div>
+      </mat-card-header>
 
-        <mat-card-title class="right-align-text">{{car.maker}}</mat-card-title>
-        <mat-card-subtitle class="right-align-text">{{car.model}}</mat-card-subtitle>
-      </div>
-    </mat-card-header>
+      <!-- <mat-card-actions class="button-margin">
+        <button mat-button>
+          <mat-icon class="left-margin">arrow_back</mat-icon>
+        </button>
+        <button mat-button class="push-to-right">
+          <mat-icon class="left-margin">arrow_forward</mat-icon>
+        </button>
+      </mat-card-actions> -->
 
-    <mat-card-actions class="button-margin">
-      <button mat-button>
-        <mat-icon class="left-margin">arrow_back</mat-icon>
-      </button>
-      <button mat-button class="push-to-right">
-        <mat-icon class="left-margin">arrow_forward</mat-icon>
-      </button>
-    </mat-card-actions>
+      <img mat-card-image [src]="car.img" alt="Photo of a ...." class="car-image-style">
 
-    <img mat-card-image [src]="car.img" alt="Photo of a ...." class="car-image-style">
+      <br/>
+      <mat-grid-list cols="2" rowHeight="990px">
+        <mat-grid-tile class="parameter-style">
+          Engine type - Number of cylinders<br />
+          Engine Code<br />
+          Fuel Type<br />
+          Fuel System<br />
+          Coolant<br />
+          Engine Alignment<br />
+          Engine size - Displacement - Engine capacity<br />
+          Bore x Stroke<br />
+          Number of valves<br />
+          Aspiration<br />
+          Compression Ratio<br /><br /><br />
+          Maximum power - Output - Horsepower<br />
+          Maximum torque<br />
+          Drive wheels - Traction - Drivetrain<br />
+          Transmission Gearbox - Number of speeds<br />
+          Fuel Consumption - Economy<br />
+          Fuel Tank Capacity<br />
+          Top Speed<br />
+          Acceleration 0 to 60 mph (0 to 96 Km/h)<br />
+          Body<br />
+          Num. of Doors<br /><br /><br />
+          Wheelbase<br />
+          Length<br />
+          Width<br />
+          Height<br />
+          Front Axle<br />
+          Rear Axle<br />
+          Aerodynamic drag coefficient<br />
+          Front Brakes - Disc dimensions<br />
+          Rear Brakes - Dics dimensions<br />
+          Front Tyres - Rims dimensions<br /><br /><br />
+          Rear Tyres - Rims dimensions<br />
+          Front Wheels Width<br />
+          Rear Wheels Width<br />
+          Curb Weight<br />
+          Weight-Power Output Ratio<br />
+          Trunk / Boot capacity<br />
+          Steering<br />
+          Front Suspension<br />
+          Rear Suspension <br />
+          Price
+        </mat-grid-tile>
+        <mat-grid-tile class="parameter-detail-style">
+          {{car.engine}}<br />
+          {{car.engine_code}}<br />
+          {{car.fuel}}<br />
+          {{car.fuel_system}}<br />
+          {{car.coolant}}<br />
+          {{car.engine_alignment}}<br />
+          {{car.engine_size}}<br />
+          {{car.bore}}<br />
+          {{car.valves}}<br />
+          {{car.aspiration}}<br />
+          {{car.compression_ratio}}<br /><br /><br />
+          {{car.horsepower}}<br />
+          {{car.torque}}<br />
+          {{car.traction}}<br />
+          {{car.gearbox}}<br />
+          {{car.fuel_consumption}}<br />
+          {{car.fuel_capacity}}<br />
+          {{car.speed}}<br />
+          {{car.acceleration}}<br />
+          {{car.body}}<br />
+          {{car.doors}}<br /><br /><br />
+          {{car.wheelbase}}<br />
+          {{car.length}}<br />
+          {{car.width}}<br />
+          {{car.height}}<br />
+          {{car.front_axle}}<br />
+          {{car.rear_axle}}<br />
+          {{car.aerodynamic}}<br />
+          {{car.front_brakes_disc}}<br />
+          {{car.rear_brakes_disc}}<br />
+          {{car.front_tyres_rims}}<br /><br /><br />
+          {{car.rear_tyres_rims}}<br />
+          {{car.front_wheels_width}}<br />
+          {{car.rear_wheels_width}}<br />
+          {{car.curb_weight}}<br />
+          {{car.weight_power}}<br />
+          {{car.trunk}}<br />
+          {{car.steering}}<br />
+          {{car.front_suspension}}<br />
+          {{car.rear_suspension}}<br />
+          {{car.price}}
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-card>
 
-    <mat-grid-list cols="2" rowHeight="1:1">
-      <mat-grid-tile class="parameter-style">
-        Engine type - Number of cylinders<br />
-        Engine Code<br />
-        Fuel Type<br />
-        Fuel System<br />
-        Coolant<br />
-        Engine Alignment<br />
-        Engine size - Displacement - Engine capacity<br />
-        Bore x Stroke<br />
-        Number of valves<br />
-        Aspiration<br />
-        Compression Ratio<br />
-        Maximum power - Output - Horsepower<br />
-        Maximum torque<br />
-        Drive wheels - Traction - Drivetrain<br />
-        Transmission Gearbox - Number of speeds<br />
-        Fuel Consumption - Economy<br />
-        Fuel Tank Capacity<br />
-        Top Speed<br />
-        Acceleration 0 to 60 mph (0 to 96 Km/h)<br />
-        Body<br />
-        Num. of Doors<br />
-        Wheelbase<br />
-        Length<br />
-        Width<br />
-        Height<br />
-        Front Axle<br />
-        Rear Axle<br />
-        Aerodynamic drag coefficient<br />
-        Front Brakes - Disc dimensions<br />
-        Rear Brakes - Dics dimensions<br />
-        Front Tyres - Rims dimensions<br />
-        Rear Tyres - Rims dimensions<br />
-        Front Wheels Width<br />
-        Rear Wheels Width<br />
-        Curb Weight<br />
-        Weight-Power Output Ratio<br />
-        Trunk / Boot capacity<br />
-        Steering<br />
-        Front Suspension<br />
-        Rear Suspension <br />
-        Price
-      </mat-grid-tile>
-      <mat-grid-tile class="parameter-detail-style">
-        {{car.engine}}<br />
-        {{car.engine_code}}<br />
-        {{car.fuel}}<br />
-        {{car.fuel_system}}<br />
-        {{car.coolant}}<br />
-        {{car.engine_alignment}}<br />
-        {{car.engine_size}}<br />
-        {{car.bore}}<br />
-        {{car.valves}}<br />
-        {{car.aspiration}}<br />
-        {{car.compression_ratio}}<br />
-        {{car.horsepower}}<br />
-        {{car.torque}}<br />
-        {{car.traction}}<br />
-        {{car.gearbox}}<br />
-        {{car.fuel_consumption}}<br />
-        {{car.fuel_capacity}}<br />
-        {{car.speed}}<br />
-        {{car.acceleration}}<br />
-        {{car.body}}<br />
-        {{car.doors}}<br />
-        {{car.wheelbase}}<br />
-        {{car.length}}<br />
-        {{car.width}}<br />
-        {{car.height}}<br />
-        {{car.front_axle}}<br />
-        {{car.rear_axle}}<br />
-        {{car.aerodynamic}}<br />
-        {{car.front_brakes_disc}}<br />
-        {{car.rear_brakes_disc}}<br />
-        {{car.front_tyres_rims}}<br />
-        {{car.rear_tyres_rims}}<br />
-        {{car.front_wheels_width}}<br />
-        {{car.rear_wheels_width}}<br />
-        {{car.curb_weight}}<br />
-        {{car.weight_power}}<br />
-        {{car.trunk}}<br />
-        {{car.steering}}<br />
-        {{car.front_suspension}}<br />
-        {{car.rear_suspension}}<br />
-        {{car.price}}
-      </mat-grid-tile>
-    </mat-grid-list>
-
-  </mat-card>
+  </div>
 
 </body>

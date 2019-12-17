@@ -1,8 +1,4 @@
-.details-card {
-  width: 600px;
-  margin-left: 300px;
-  margin-top: 50px;
-}
+
 
 .example-header-image {
   width: 25px;
@@ -20,6 +16,10 @@ align-content: center;
 align-items: center;
 }
 
+.logo-style:hover{
+  opacity: 1;
+  cursor: pointer;
+}
 
 .fill-space{
   flex: 1 1 auto;
@@ -59,6 +59,7 @@ align-items: center;
   background-color: #F3F3F3;
   height: inherit;
   background: #F3F3F3;
+  overflow: scroll;
 }
 
 .right-align{
@@ -104,6 +105,9 @@ color: white;
 .navbar-color{
 background-color: blueviolet;
 color: white;
+position: fixed;
+top: 0px;
+z-index: 4;
 }
 
 .toggle-slide{
@@ -161,10 +165,14 @@ border-radius: 5px;
 }
 
 .details-card {
-  width: 600px;
-  margin: auto;
-  align-items: center;
-  align-content: center;
+  width: auto;
+  height: auto;
+  overflow: auto;
+}
+
+.card-center{
+  display: flex;
+  justify-content: center;
 }
 
 .carousel-container .toggle-favourite:hover {
@@ -200,11 +208,6 @@ border: none;
   margin-right: 20px;
 }
 
-.details-card {
-  width: 600px;
-  margin-left: 300px;
-  margin-top: 50px;
-}
 
 .example-header-image {
   width: 25px;
@@ -250,11 +253,13 @@ align-items: center;
   font-size: 14px;
   color: black;
   text-align: right;
+  font-weight: bold;
 }
 
 .parameter-detail-style{
   font-size: 14px;
   color: darkslategray;
+  font-weight: 500;
 }
 
 .car-image-style{

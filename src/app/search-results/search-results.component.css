@@ -178,6 +178,15 @@ align-items: center;
   height: 300px;
 }
 
+.car-image-style:hover{
+  cursor: pointer;
+}
+
+.logo-style:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
 .bgcolor{
   background-color: #F3F3F3;
   height: inherit;

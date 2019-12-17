@@ -36,4 +36,8 @@ export class SearchResultsComponent implements OnInit {
   sendCar(car){
     this.data.goToDetails(car);
   }
+
+  search(newSearch: string) {
+    this.data.search(newSearch);
+  }
 }

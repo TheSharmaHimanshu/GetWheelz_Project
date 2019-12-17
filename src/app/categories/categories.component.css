@@ -67,6 +67,7 @@
 
   img:hover{
     opacity: 0.1;
+    cursor: pointer;
   }
 
   .button-row{
@@ -77,4 +78,9 @@
   .logo-style{
     width: 200px;
     height: 150px;
+  }
+
+  .logo-style:hover{
+    opacity: 1;
+    cursor: pointer;
   }
