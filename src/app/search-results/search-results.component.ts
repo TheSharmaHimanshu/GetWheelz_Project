@@ -24,7 +24,7 @@ export class SearchResultsComponent implements OnInit {
   }
 
   getPageInfo(parameters){
-    this.page_title = 'Search Results';
+    this.page_title = 'Search Results For: ' + parameters;
     if(parameters == ''){
       this.searched_cars = this.cars;
     }
