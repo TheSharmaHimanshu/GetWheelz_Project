@@ -1,23 +1,23 @@
 <mat-toolbar class="navbar-color" role="heading" aria-label="GetWheelz.com">
   <img src="../assets/logo.png" class="logo-style" routerLink="/categories"
-  routerLinkActive="active">
+  routerLinkActive="active" aria-label="GetWheelz Logo">
   <span class="fill-space"></span>
   <span>
-    <button mat-stroked-button (click)="openLogin()" class="button-row">Login</button>
+    <button mat-stroked-button (click)="openLogin()" class="button-row" aria-label="Login Button">Login</button>
   </span>
   <span>
-    <button mat-stroked-button (click)="openRegister()" >Register</button>
+    <button mat-stroked-button (click)="openRegister()" aria-label="Register Button">Register</button>
   </span>
 </mat-toolbar>
 
 <form class="example-form">
   <span>
     <mat-form-field class="example-full-width">
-      <input matInput placeholder="Search..." #newSearch (keyup.enter)="seach(newSearch.value); " (blur)="search(newSearch.value); newSearch.value='' ">
+      <input matInput placeholder="Search..." #newSearch (keyup.enter)="seach(newSearch.value); " (blur)="search(newSearch.value); newSearch.value='' " aria-label="Search Field">
     </mat-form-field>
-    <button mat-raised-button class="button-align-right" routerLink="/search-results" routerLinkActive="active" (click)="search(newSearch.value)">Search</button>
+    <button mat-raised-button class="button-align-right" routerLink="/search-results" routerLinkActive="active" (click)="search(newSearch.value)" aria-label="Search Button">Search</button>
   </span>
-  <mat-slide-toggle class="toggle-style" (click)='openAdvanceSearch()' >Advanced Search</mat-slide-toggle>
+  <mat-slide-toggle class="toggle-style" (click)='openAdvanceSearch()' aria-label="Toggle Advanced Search">Advanced Search</mat-slide-toggle>
 
 </form>
 
@@ -29,39 +29,39 @@
 <span clas="category-style">
     <mat-grid-list cols="3" rowHeight="3:1">
       <b>
-        <mat-grid-tile (click)="sendCategory('Sport')" routerLink="/show-category" routerLinkActive="active">
+        <mat-grid-tile (click)="sendCategory('Sport')" routerLink="/show-category" routerLinkActive="active" aria-label="Sports Car Category">
           <img src="../assets/car_images/sportscar.jpg" class="tile-image">
           <div class="centered">SPORTS</div>
         </mat-grid-tile>
-        <mat-grid-tile (click)="sendCategory('Performance')" routerLink="/show-category" routerLinkActive="active">
+        <mat-grid-tile (click)="sendCategory('Performance')" routerLink="/show-category" routerLinkActive="active" aria-label="Performance Car Category">
           <img src="../assets/car_images/sedancar.jpg" class="tile-image">
           <div class="centered">PERFORMANCE</div>
         </mat-grid-tile>
-        <mat-grid-tile (click)="sendCategory('Luxury')" routerLink="/show-category" routerLinkActive="active">
+        <mat-grid-tile (click)="sendCategory('Luxury')" routerLink="/show-category" routerLinkActive="active" aria-label="Luxury Car Category">
           <img src="../assets/car_images/luxurycar.jpg" class="tile-image">
           <div class="centered">LUXURY</div>
         </mat-grid-tile>
-        <mat-grid-tile (click)="sendCategory('Hatchback')" routerLink="/show-category" routerLinkActive="active">
+        <mat-grid-tile (click)="sendCategory('Hatchback')" routerLink="/show-category" routerLinkActive="active" aria-label="Hatchback Car Category">
           <img src="../assets/car_images/hatchback.jpg" class="tile-image">
           <div class="centered">HATCHBACK</div>
         </mat-grid-tile>
-        <mat-grid-tile (click)="sendCategory('SUV')" routerLink="/show-category" routerLinkActive="active">
+        <mat-grid-tile (click)="sendCategory('SUV')" routerLink="/show-category" routerLinkActive="active" aria-label="S U V Car Category">
           <img src="../assets/car_images/suvcar.jpg" class="tile-image">
           <div class="centered">SUV</div>
         </mat-grid-tile>
-        <mat-grid-tile (click)="sendCategory('Concept')" routerLink="/show-category" routerLinkActive="active">
+        <mat-grid-tile (click)="sendCategory('Concept')" routerLink="/show-category" routerLinkActive="active" aria-label="Concept Car Category">
           <img src="../assets/car_images/01_McLaren_F1.jpg" class="tile-image">
           <div class="centered">CONCEPT</div>
         </mat-grid-tile>
-        <mat-grid-tile (click)="sendCategory('Electric')" routerLink="/show-category" routerLinkActive="active">
+        <mat-grid-tile (click)="sendCategory('Electric')" routerLink="/show-category" routerLinkActive="active" aria-label="Electric Car Category">
           <img src="../assets/car_images/03_Lamborghini_Murcielago.jpg" class="tile-image">
           <div class="centered">ELECTRIC</div>
         </mat-grid-tile>
-        <mat-grid-tile (click)="sendCategory('GT')" routerLink="/show-category" routerLinkActive="active">
+        <mat-grid-tile (click)="sendCategory('GT')" routerLink="/show-category" routerLinkActive="active" aria-label="G T Car Category">
           <img src="../assets/car_images/ferraricar.jpg" class="tile-image">
           <div class="centered">GT</div>
         </mat-grid-tile>
-        <mat-grid-tile (click)="sendCategory('Convertible')" routerLink="/show-category" routerLinkActive="active">
+        <mat-grid-tile (click)="sendCategory('Convertible')" routerLink="/show-category" routerLinkActive="active" aria-label="Convertible Car Category">
           <img src="../assets/car_images/04_Maserati_GranTurismo.jpg" class="tile-image">
           <div class="centered">CONVERTIBLE</div>
         </mat-grid-tile>

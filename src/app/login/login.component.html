@@ -7,11 +7,13 @@
     <mat-form-field class="login-style">
         <input matInput placeholder="Password" required type="password">
     </mat-form-field>
+    <br/>
+    <h4 class="forgot-password" href="">Forgot Your Password?</h4>
 </span>
-
+<br/><br/>
 <span>
     <button mat-raised-button color="warn" routerLink="/categories" routerLinkActive="active"
         (click)="dismissDialog('close')">Cancel</button>
     <button mat-raised-button color="primary" routerLink="/show-category" routerLinkActive="active"
-        (click)="collapseDialog('shut')" class="toggle-style">Login</button>
+        (click)="dismissDialog('shut')" class="right-style">Login</button>
 </span>

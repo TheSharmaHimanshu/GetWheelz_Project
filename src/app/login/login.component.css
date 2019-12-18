@@ -2,11 +2,17 @@
     width: 100%;
   }
 
-  .toggle-style{
+  .right-style{
     float: right;
   }
 
   .center-align{
       text-align: center;
       align-content: center;
+  }
+
+  .forgot-password{
+    float: right;
+    font-size: 12px;
+    cursor: pointer;
   }
