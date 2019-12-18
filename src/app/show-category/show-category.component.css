@@ -61,7 +61,7 @@ color: black;
 
 .carousel-container .overlay-favourite {
 position: absolute;
-top: 15%;
+top: 14%;
 left: 80%;
 transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%);
@@ -73,7 +73,7 @@ border-radius: 5px;
 
 .carousel-container .toggle-favourite {
 position: absolute;
-top: 15%;
+top: 14%;
 left: 80%;
 transform: scale(0.7) translate(-71%, -69%);
 -ms-transform: translate(-50%, -50%);
@@ -203,6 +203,6 @@ align-items: center;
   height: 150px;
 }
 
-.car-image-style:hover{
+.car_image:hover{
   cursor: pointer;
 }

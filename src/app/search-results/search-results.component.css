@@ -61,7 +61,7 @@
 
 .carousel-container .overlay-favourite {
   position: absolute;
-  top: 15%;
+  top: 14%;
   left: 80%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -73,7 +73,7 @@
 
 .carousel-container .toggle-favourite {
   position: absolute;
-  top: 15%;
+  top: 14%;
   left: 80%;
   transform: scale(0.7) translate(-71%, -69%);
   -ms-transform: translate(-50%, -50%);
@@ -96,7 +96,8 @@
 .carousel-control-prev:hover{
   background: rgba(0, 0, 0, 0.7);
 }
-.carousel-control-next:hover{
+
+  .carousel-control-next:hover{
   background: rgba(0, 0, 0, 0.7);
 }
 
@@ -178,7 +179,7 @@ align-items: center;
   height: 300px;
 }
 
-.car-image-style:hover{
+.car_image:hover{
   cursor: pointer;
 }
 
